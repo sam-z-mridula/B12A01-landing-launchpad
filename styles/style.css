@@ -4,12 +4,19 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Raleway', sans-serif;
 }
 
 :root {
     --primary-color: #4E47FF;
-    --bg-color: #e5e7ff;
+    --bg-color: #F5F8FF;
+    --bg-secondary: #e5e7ff;
     --text-color: #252432;
+    --text-secondary: #8D8E98;
+}
+
+body{
+    background-color: var(--bg-color);
 }
 
 /* Header section */
@@ -36,15 +43,14 @@ header{
     font-size: 32px;
 }
 
-.navbar button{
+.btn{
     border: none;
     padding: 14px 34px;
     border-radius: 10px;
-    background-color: var(--primary-color);
+    background: var(--primary-color);
     font-size: 16px;
     font-weight: 600;
     color: white;
-    font-family: 'Raleway', sans-serif;
 }
 
 .hero{
@@ -53,20 +59,32 @@ header{
 }
 
 .hero h1{
-    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 65px;
     color: var(--text-color);
     margin-bottom: 37px;
 }
 
-.hero button{
-    border: none;
-    padding: 14px 34px;
-    border-radius: 10px;
-    background-color: var(--primary-color);
-    font-size: 16px;
-    font-weight: 600;
-    color: white;
-    font-family: 'Raleway', sans-serif;
+.action{
+    margin: 116px 160px 116px 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action-info h1{
+    font-weight: 700;
+    font-size: 42px;
+    color: var(--text-color);
+}
+
+.action-info p{
+    font-weight: 300;
+    font-size: 24px;
+    color: var(--text-secondary);
+    margin: 23px 0 23px;
+}
+
+.action img{
+    border-radius: 48px;
 }

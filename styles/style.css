@@ -88,3 +88,36 @@ header{
 .action img{
     border-radius: 48px;
 }
+
+.user{
+    margin: 0 159px 137px 141px;
+    background-color: var(--bg-secondary);
+    text-align: center;
+    padding: 50px 142px;
+    border-radius: 24px;
+}
+
+.user-info h1{
+    font-size: 38px;
+    font-weight: 700;
+    color: var(--text-color);
+}
+
+.all-users{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.text h1{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 80px;
+    color: var(--primary-color);
+}
+
+.text p{
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--text-secondary);
+}

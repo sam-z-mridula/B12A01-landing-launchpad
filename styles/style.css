@@ -190,6 +190,34 @@ header{
     font-family: 'Inter', sans-serif;
 }
 
+/* Focus Section */
+.focus{
+    margin: 0 100px 95px 110px;
+    text-align: center;
+    background: white;
+    padding: 71px 150px;
+    border-radius: 14px;
+}
+
+.focus h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.focus p{
+    color: grey;
+    margin-bottom: 20px;
+}
+
+.focus button{
+    margin-bottom: 20px;
+}
+
+.focus img{
+    border-radius: 48px;
+}
+
 /* Newsletter Section */
 .newsletter{
     margin: 0 150px;

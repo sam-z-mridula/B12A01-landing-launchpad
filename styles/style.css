@@ -65,6 +65,7 @@ header{
     margin-bottom: 37px;
 }
 
+/* Action Section */
 .action{
     margin: 116px 160px 116px 140px;
     display: flex;
@@ -89,6 +90,7 @@ header{
     border-radius: 48px;
 }
 
+/* User Section */
 .user{
     margin: 0 159px 137px 141px;
     background-color: var(--bg-secondary);
@@ -120,4 +122,59 @@ header{
     font-size: 20px;
     font-weight: 500;
     color: var(--text-secondary);
+}
+
+/* Review Section */
+.review{
+    margin: 0 149px 137px 151px;
+}
+
+.review h1{
+    font-size: 42px;
+    font-weight: bold;
+    color: var(--text-color);
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.review-info{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.review-text{
+    padding: 24px;
+    background-color: white;
+    border: 1px solid #F2EDED;
+    border-radius: 14px;
+}
+
+.review-text i{
+    color: #FFB805;
+}
+
+.review-text p{
+    font-weight: 500;
+    margin: 8px 0 24px 0;
+    font-size: 16px;
+}
+
+.little{
+    display: flex;
+    gap: 12px;
+}
+
+.little img{
+    border-radius: 50%;
+}
+
+.little h3{
+    font-family: 'Inter';
+    color: #757575;
+    font-weight: 500;
+}
+
+.little p{
+    color: #B3B3B3;
 }

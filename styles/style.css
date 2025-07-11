@@ -8,11 +8,11 @@
 }
 
 :root {
-    --primary-color: #4E47FF;
-    --bg-color: #F5F8FF;
-    --bg-secondary: #e5e7ff;
-    --text-color: #252432;
-    --text-secondary: #8D8E98;
+    --text-color: #011c27;
+    --text-secondary: #002d40;
+    --primary-color: #0499aa;
+    --bg-secondary: #dceef8;
+    --bg-color: #f3fbff;
 }
 
 body{
@@ -58,6 +58,7 @@ header{
     background: transparent;
     border: 2px solid var(--primary-color);
     color: var(--primary-color);
+    font-weight: 700;
     transform: scale(1.1);
     box-shadow: 0 0 8px var(--primary-color);
 }
@@ -179,13 +180,14 @@ header{
 }
 
 .little h3{
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     color: #757575;
     font-weight: 500;
 }
 
 .little p{
     color: #B3B3B3;
+    font-family: 'Inter', sans-serif;
 }
 
 /* Newsletter Section */
